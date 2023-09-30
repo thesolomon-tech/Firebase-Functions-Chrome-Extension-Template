@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Firebase Functions Chrome Extension Template",
+    "version": "1.0",
+    "description": "A template to build firebase function extensions",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "dist/main.js"
+    },
+    "icons": {
+        "16": "firebase_logo.png"
+    },
+    "host_permissions": [
+        "https://<location><project-name>.cloudfunctions.net/<function_name>",
+        "https://<project-name>.firebaseapp.com/",
+        "https://<project-name>.appspot.com/",
+        "https://<project-name>.firebaseio.com/"
+    ]
+}
