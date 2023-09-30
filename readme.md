@@ -7,5 +7,5 @@
 ## To use:
 1. run npm install.
 2. Replace location and project name in manifest.json.
-3. Fill out the firebaseConfig and url variables in background.js
+3. Fill out the firebaseConfig and url variables in background.js.
 4. Run npm run build.
